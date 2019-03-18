@@ -1,5 +1,6 @@
 def get_first_name_of_season_winner(data, season)
   # code here
+<<<<<<< HEAD
   name = ""
   data[season].each do|info|
     info.each do |key,value|
@@ -12,6 +13,11 @@ def get_first_name_of_season_winner(data, season)
     end
   end
   return name
+=======
+  data[season].each|key,value|
+    puts key
+  end
+>>>>>>> 34604a4e473b3e2f8247e8872c8976e62ec7568c
 end
 
 def get_contestant_name(data, occupation)
